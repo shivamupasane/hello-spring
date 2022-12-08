@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>IMDB TOP 5 </h1>
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">Title</th>
+    <th scope="col">Episode</th>
+    <th scope="col">Rating</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr th.object="${first}">
+    <td th.text="*{title}"></td>
+    <td th.text="*{episode}"></td>
+    <td th.text="*{rating}"></td>
+  </tr>
+  <tr th.object="${second}">
+    <td th.text="*{title}"></td>
+    <td th.text="*{episode}"></td>
+    <td th.text="*{rating}"></td>
+  </tr>
+  <tr th.object="${third}">
+    <td th.text="*{title}"></td>
+    <td th.text="*{episode}"></td>
+    <td th.text="*{rating}"></td>
+  </tr>
+  <tr th.object="${fourth}">
+    <td th.text="*{title}"></td>
+    <td th.text="*{episode}"></td>
+    <td th.text="*{rating}"></td>
+  </tr>
+  <tr th.object="${fifth}">
+    <td th.text="*{title}"></td>
+    <td th.text="*{episode}"></td>
+    <td th.text="*{rating}"></td>
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>
